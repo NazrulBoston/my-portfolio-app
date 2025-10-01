@@ -1,5 +1,7 @@
+import AboutPage from "./about/page";
 import BannerPage from "./banner/page";
 import Navbar from "./components/Navbar";
+import ExpertiesPage from "./myExpertise/page";
 
 
 export default function Home() {
@@ -7,7 +9,9 @@ export default function Home() {
     <div>
       <Navbar></Navbar>
       <BannerPage></BannerPage>
-      <h1>This is our home page</h1>
+      <AboutPage></AboutPage>
+      <ExpertiesPage></ExpertiesPage>
+     
     </div>
   );
 }
